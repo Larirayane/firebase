@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ACEEF6"
+    tools:context=".Inicio">
+
+    <TextView
+        android:id="@+id/idEmail"
+        android:layout_width="107dp"
+        android:layout_height="57dp"
+        android:fontFamily="sans-serif-black"
+        android:hint="Email"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <TextView
+        android:id="@+id/idSenha"
+        android:layout_width="103dp"
+        android:layout_height="45dp"
+        android:fontFamily="sans-serif-black"
+        android:hint="Senha"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idEmail"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="141dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Sair"
+        android:textAlignment="center"
+        android:textColor="#EB0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:cornerRadius="1dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
